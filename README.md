@@ -1,16 +1,18 @@
 # liri-node-app
 
+youtube link: https://youtu.be/Vn_udN3Sq8g
+
 ## How to use
 Use node to run this program. Use node liri.js then run one of the following comands, then add search text:
 
-## Commands
+## Liri.js Commands
 * concert-this
 * spotify-this-song
 * movie-this
 * do-what-it-says
 
 Note: When running a command follow it by desired text/search.
-Example: `node liri.js movie-this underworld`
+Example: `node liri.js movie-this Forrest Gump`
 
 When `concert-this` command is used you will be provided with:
 - Name of the venue
@@ -36,11 +38,11 @@ When `movie-this` command is used you will be provided with:
 - Actors in the movie.
 
 If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.
-`When do-what-it-says command`:
+When`do-what-it-says `command:
 
 A random.txt file with search for `spotify-this-song` "I want it that way." This will give you the spotify results of "I want it that way."
 
-- Technologies Used
+## Technologies Used
 - JavaScript
 - Node.js
 - Spotify API
