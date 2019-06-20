@@ -167,7 +167,7 @@ if (command === "do-what-it-says") {
   
   fs.readFile("random.txt", "utf8", function (error, data) {
 
-    spotify.search({ type: 'track', query: "random.txt" }, function (error, data) {
+    spotify.search({ type: 'track', query: "I Want it That Way" }, function (error, data) {
       if (error) { // if error
         console.log('Error occurred: ' + error);
       } else { // if no error
